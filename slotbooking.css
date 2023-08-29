@@ -1,0 +1,161 @@
+.slot{
+    height: 400px;
+    width: 17rem;
+    /* background-color: black; */
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.top{
+    height: 70px;
+    width: 270px;
+    background-color: rgb(23, 10, 78);
+    border-bottom: 1px solid black;
+    transition: 0.3s;
+
+}
+.footer{
+
+ text-align: center;
+ margin-top: 5px;
+ transition:0.3s;
+
+}
+.line{
+    border: 1px solid black;
+    margin-top: 70px;
+    transition: 0.3s;
+
+}
+ul{
+    list-style: none;
+}
+i{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* hover property-------------------------------------------------------------- */
+
+.slot:hover{
+    background-color: rgb(250, 245, 244);
+    height: 430px;
+    width: 20rem;
+    margin-bottom: 300px;
+    cursor: pointer;
+    .top{
+        width: 318px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .button{
+        background-color: rgb(34, 243, 34);
+        height: 40px;
+        width: 140px;
+        color: aliceblue;
+        font-weight: bold;
+        margin-left: 13px;
+        margin-top: 3.5px;
+        
+        
+    }
+   .tickwrong{
+/* font-size: large; */
+
+   }
+   .content{
+    font-size: 25px;
+   }
+}
+
+/* responsive css------------------------------------------------------------- */
+@media screen and (max-width:950px)     {
+    .slot {
+      width: 15rem;
+    }
+    .top{
+        width: 240px;
+    }
+   ul{
+font-size: 15px;
+   }
+    .line{
+        margin-top: 50px;
+    }
+    .button{
+        /* margin-right: 100px; */
+        font-size: 12px;
+        height: 30px;
+        width:110px ;
+        font-weight: bold;
+
+    }
+  }
+@media screen and (max-width:808px)     {
+    .slot {
+      width: 13rem;
+    }
+    .top{
+        width: 206px;
+    }
+  ul{
+    font-size: 14px;
+  }
+   .content{
+    font-size: 20px;
+   }
+    .line{
+        margin-top: 38px;
+    }
+    .button{
+        /* margin-right: 50px; */
+        margin: 0;
+        padding: 0;
+        font-size: 9px;
+        height: 30px;
+        width:75px ;
+        font-weight:bolder ;
+        /* justify-content: center; */
+
+    }
+  }
+@media screen and (max-width:648px) {
+    #containerid{
+        display:block;
+        transform: scale(1);
+        flex-wrap: wrap;
+        gap: 10px
+        ;
+    }
+    .slot {
+        width: 20rem;
+        transform: scale(1);
+      height: 400px;
+    }
+    .top{
+        width: 318px;
+    }
+  ul{
+    font-size: 20px;
+    text-align: start;
+  }
+   .content{
+    color: yellow;
+   }
+    .line{
+        /* margin-top: 70px; */
+    }
+    .button{
+        /* margin-right: 50px; */
+
+         margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 12px;
+        height: 45px;
+        width:100px ;
+        font-weight:bolder ; 
+
+        /* justify-content: center; */
+
+    }
+  }
